@@ -109,8 +109,8 @@ Our code - in git repositories - is shared via [Github](https://github.com), so 
 3. Ensure you have [enabled Multi-Factor Authentication](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication) on your Github account.
 
 4. Configure `git` locally by running the following commands:
-    * `$ git config --global user.name "<YOUR_NAME>"`
-    * `$ git config --global user.email <YOUR_EMAIL_IN_GITHUB>`
+  * `$ git config --global user.name "<YOUR_NAME>"`
+  * `$ git config --global user.email <YOUR_EMAIL_IN_GITHUB>`
 
 ---
 
@@ -129,6 +129,16 @@ Copy the displayed public key to your clipboard.
 Then follow [instructions to add the SSH key in the clipboard to your github account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 
 Return to the [Getting Started](https://github.com/ONSdigital/dp/blob/main/guides/GETTING_STARTED.md) guide for next steps.
+
+### Testing SSH Connection
+
+To check that you've set up your Git SSH on your terminal, open your favoured terminal and enter:
+  * `ssh -T git@github.com`
+  
+You will be asked to type *yes* if you're ready to connect. You should be prompted with:
+  * `Hi [YOUR GIT USERNAME]! You've successfully authenticated, but GitHub does not provide shell access.`
+
+You can then close your terminal. If it's unsuccessful check you've used the correct email address (email used for Github account) when creating and saving your key.
 
 ### Background
 

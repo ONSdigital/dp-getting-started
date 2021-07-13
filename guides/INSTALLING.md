@@ -259,7 +259,7 @@ Most applications can be run using the `$ make debug` command, but deviations ar
 Run all the services in the [web journey](#web-journey)
 
 * [babbage](https://github.com/ONSdigital/babbage) - use: `$ ./run.sh`
-* [zebedee](https://github.com/ONSdigital/zebedee) - use: `$ ./run-cms.sh`
+* [zebedee](https://github.com/ONSdigital/zebedee) - use: `$ ./run-reader.sh`
 * [sixteens](https://github.com/ONSdigital/sixteens) - use: `$ ./run.sh`
 * [dp-frontend-router](https://github.com/ONSdigital/dp-frontend-router)
 * [dp-frontend-renderer](https://github.com/ONSdigital/dp-frontend-renderer)

@@ -31,11 +31,12 @@ First you need the address of the cluster you want to connect to. You can get th
 
 1. Run the command to port forward to the Neptune cluster, where `{cluster address}` is replaced with the `develop-neptune-dev-test-cluster` cluster endpoint address.
 
-Using the DP CLI:
+#### Using the DP CLI:
+ ```
+ dp ssh develop publishing 1 -p 8182:{cluster address}:8182
+ ```
 
-```text
-dp ssh develop publishing 1 -p 8182:{cluster address}:8182
-```
+#### If not using the DP CLI:
 
 For example:
 
@@ -43,7 +44,7 @@ For example:
 dp ssh develop publishing 1 -p 8182:develop-neptune-dev-test-cluster.cluster-cpviojtnaxsj.eu-west-1.neptune.amazonaws.com:8182
 ```
 
-If not using the DP CLI:
+#### If not using the DP CLI:
 
 In the terminal, CD into the ansible directory of the dp-setup project:
 
