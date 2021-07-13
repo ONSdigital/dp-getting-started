@@ -3,6 +3,8 @@ Creating a new app
 
 The following steps will guide you through adding a new app to our system that is built by the CI system and deployed to the live environment.
 
+**NOTE:** If you're creating a new library go to [new library](NEW_LIBRARY.md)
+
 Prerequisites
 -------------
 
