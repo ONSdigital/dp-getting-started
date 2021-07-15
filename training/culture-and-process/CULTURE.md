@@ -1,7 +1,7 @@
 Culture in DP
 ===========================
-Our culture and how we work is important for us to create an inclusive, empathetic and successful environment that works for everybody. 
 
+Our culture and how we work is important for us to create an inclusive, empathetic and successful environment that works for everybody. 
 
 ### Principles
 

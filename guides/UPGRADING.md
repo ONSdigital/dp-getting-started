@@ -5,7 +5,8 @@
 Our approach to version upgrades is contingent on the technology in question. Details of which are outlined below, per technology and language.
 
 If you notice any upgrades that are not covered by this policy (including major versions of DBs becoming available), please
-raise them on the 20% board for triage.
+raise them on the [20% board](https://trello.com/b/5G8rf9cm/20-time-backlog) for triage.
+Further reading on [contributing to 20% backlog](../training/culture-and-process/CONTRIBUTING_TO_20%_BACKLOG.md).
 
 ### Legacy apps
 

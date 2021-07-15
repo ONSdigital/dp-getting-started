@@ -11,7 +11,8 @@ is released (providing it is covered by the policy for that language), then you 
 example, when go@1.x.1 is released then you should use it in your next pull request.
 
 If you notice any upgrades that are not covered by this policy (including major versions of DBs becoming available)
-raise them on the 20% board for triage.
+raise them on the [20% board](https://trello.com/b/5G8rf9cm/20-time-backlog) for triage.
+Further reading on [contributing to 20% backlog](../training/culture-and-process/CONTRIBUTING_TO_20%_BACKLOG.md).
 
 We don’t update dependencies in legacy apps unless there is a security vulnerability (babbage, zebedee, train, brian,
 legacy florence).

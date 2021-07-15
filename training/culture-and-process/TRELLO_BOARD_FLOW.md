@@ -13,6 +13,7 @@ Trello boards are generally comprised of lists (shown as columns on the board) a
 - In Progress
 - PR
 - PO Sign-off
+- Testing (Optional)
 - Ready for Release
 - Done
 
@@ -64,4 +65,6 @@ Provided that all of the above criteria have been met, you can now begin the rel
 7. Create a new release version on github (see version control and release tagging above)
 8. Refer to [this](CICD.md) document for the next steps to deploy your app into an environment  
 
+### Next steps
 
+- Understanding of [70%, 20% and 10% time](./70_20_10_TIME.md)
